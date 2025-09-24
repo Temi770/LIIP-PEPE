@@ -42,7 +42,7 @@ const jump = -8;
 
 // 🧱 Pipes
 let pipeGap = canvas.height * 0.25;
-const minGap = canvas.height * 0.15;
+const minGap = canvas.height * 0.5;
 const pipeWidth = canvas.width * 0.09;
 let pipes = [];
 let frames = 0;
@@ -271,5 +271,6 @@ pepeImg.onload = () => {
   resizeCanvas();
   requestAnimationFrame(loop);
 };
+
 
 
